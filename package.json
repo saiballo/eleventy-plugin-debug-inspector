@@ -1,6 +1,6 @@
 {
 	"name": "@saiballo/eleventy-debug-inspector",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "An Eleventy plugin that identifies Nunjucks includes and imported macros in generated pages.",
 	"main": "main.js",
 	"files": [
