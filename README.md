@@ -14,7 +14,7 @@
 [npm package](https://www.npmjs.com/package/@saiballo/eleventy-debug-inspector)
 
 ```sh
-npm install @saiballo/eleventy-debug-inspector --save
+npm install @saiballo/eleventy-debug-inspector --save-dev
 ```
 
 Add the plugin to your `eleventy.config.js` file:
