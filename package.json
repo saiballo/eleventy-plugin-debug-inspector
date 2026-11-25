@@ -1,0 +1,47 @@
+{
+	"name": "@saiballo/eleventy-debug-inspector",
+	"version": "1.0.0",
+	"description": "An Eleventy plugin that identifies Nunjucks includes and imported macros in generated pages.",
+	"main": "main.js",
+	"files": [
+		"dist",
+		"img",
+		"src",
+		"main.js"
+	],
+	"keywords": [
+		"11ty",
+		"eleventy",
+		"eleventy-plugin",
+		"nunjucks",
+		"debug",
+		"inspector"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Lorenzo \"Saibal\" Forti",
+		"email": "lorenzo.forti@gmail.com"
+	},
+	"homepage": "https://github.com/saiballo/eleventy-debug-inspector#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/saiballo/eleventy-debug-inspector.git"
+	},
+	"bugs": {
+		"url": "https://github.com/saiballo/eleventy-debug-inspector"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"11ty": {
+		"compatibility": ">=3.1.0"
+	},
+	"scripts": {
+		"build:inspector": "esbuild src/inspector-script.js --minify --platform=browser --target=es2020 --legal-comments=inline --outfile=dist/inspector-script.min.js",
+		"dev:inspector": "esbuild src/inspector-script.js --minify --platform=browser --target=es2020 --legal-comments=inline --outfile=dist/inspector-script.min.js --watch",
+		"prepack": "npm run build:inspector"
+	},
+	"devDependencies": {
+		"esbuild": "^0.28.2"
+	}
+}
