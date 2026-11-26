@@ -2,7 +2,7 @@
 	<img src="https://www.11ty.dev/img/logo-github.svg" width="100" height="100" alt="11ty logo">
 </p>
 
-# eleventy-debug-inspector
+# eleventy-plugin-debug-inspector
 
 > A development visual inspector for Eleventy projects using Nunjucks. It marks static includes and imported macro calls with HTML comments, then highlights the corresponding rendered content and template path in the browser. This plugin works only with Nunjucks templates.
 
@@ -11,16 +11,16 @@
 
 ## Installation
 
-[npm package](https://www.npmjs.com/package/@saiballo/eleventy-debug-inspector)
+[npm package](https://www.npmjs.com/package/@saiballo/eleventy-plugin-debug-inspector)
 
 ```sh
-npm install @saiballo/eleventy-debug-inspector --save-dev
+npm install @saiballo/eleventy-plugin-debug-inspector --save-dev
 ```
 
 Add the plugin to your `eleventy.config.js` file:
 
 ```js
-const debugInspector = require("@saiballo/eleventy-debug-inspector");
+const debugInspector = require("@saiballo/eleventy-plugin-debug-inspector");
 
 module.exports = function(eleventyConfig) {
 
@@ -33,7 +33,7 @@ module.exports = function(eleventyConfig) {
 You can override the default options when registering the plugin:
 
 ```js
-const debugInspector = require("@saiballo/eleventy-debug-inspector");
+const debugInspector = require("@saiballo/eleventy-plugin-debug-inspector");
 
 module.exports = function(eleventyConfig) {
 
