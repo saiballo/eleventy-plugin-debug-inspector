@@ -1,6 +1,6 @@
 {
-	"name": "@saiballo/eleventy-debug-inspector",
-	"version": "1.0.1",
+	"name": "@saiballo/eleventy-plugin-debug-inspector",
+	"version": "1.0.2",
 	"description": "An Eleventy plugin that identifies Nunjucks includes and imported macros in generated pages.",
 	"main": "main.js",
 	"files": [
@@ -22,13 +22,13 @@
 		"name": "Lorenzo \"Saibal\" Forti",
 		"email": "lorenzo.forti@gmail.com"
 	},
-	"homepage": "https://github.com/saiballo/eleventy-debug-inspector#readme",
+	"homepage": "https://github.com/saiballo/eleventy-plugin-debug-inspector#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/saiballo/eleventy-debug-inspector.git"
+		"url": "git+https://github.com/saiballo/eleventy-plugin-debug-inspector.git"
 	},
 	"bugs": {
-		"url": "https://github.com/saiballo/eleventy-debug-inspector"
+		"url": "https://github.com/saiballo/eleventy-plugin-debug-inspector"
 	},
 	"engines": {
 		"node": ">=18"
